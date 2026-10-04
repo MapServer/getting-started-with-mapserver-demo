@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css           *//* empty css              */import{M as e,V as r}from"./Layer-Drm1pgJq.js";import{T as a,X as t}from"./Tile-Yb5enYjy.js";import"./TileProperty-BuqqRHvN.js";const o="https://mapserver-workshop-k8hvw.ondigitalocean.app/?",p="map=/etc/mapserver/";new e({target:"map",layers:[new a({source:new t({url:o+p+"tiles.map&MODE=tile&TILE={x}+{y}+{z}&LAYERS=countries"})})],view:new r({center:[-472202,7530279],zoom:3})});
+//# sourceMappingURL=tiles--Op7vpOZ.js.map
