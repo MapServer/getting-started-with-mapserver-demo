@@ -5,7 +5,7 @@
     <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OpenLayers and GeoStyler Demo</title>
-  <script type="module" crossorigin src="./assets/geostyler-Bv3QRzxh.js"></script>
+  <script type="module" crossorigin src="./assets/geostyler-X8Ew6geH.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
   <link rel="modulepreload" crossorigin href="./assets/Layer-DUSCvVib.js">
   <link rel="modulepreload" crossorigin href="./assets/TileProperty-D7u2GpzR.js">
@@ -15,7 +15,7 @@
   <link rel="modulepreload" crossorigin href="./assets/GeoJSON-BE0Z1hkd.js">
   <link rel="modulepreload" crossorigin href="./assets/OSM-CdXtEYN-.js">
   <link rel="modulepreload" crossorigin href="./assets/render-BGxwq6fY.js">
-  <link rel="stylesheet" crossorigin href="./assets/geostyler-B6H4ckAF.css">
+  <link rel="stylesheet" crossorigin href="./assets/geostyler-DRCoiTEQ.css">
 </head>
 <body>
     <main id="container">
@@ -49,8 +49,12 @@
                 </div>
             </div>
             <div class="panel">
-                <div class="panel-title">SLD (applied in OpenLayers)</div>
+                <div class="panel-title tabs" role="tablist">
+                    <button class="tab active" role="tab" data-tab="sld-text">SLD</button>
+                    <button class="tab" role="tab" data-tab="geostyler-text">GeoStyler style (used by OpenLayers)</button>
+                </div>
                 <div id="sld-text" class="code"></div>
+                <div id="geostyler-text" class="code" hidden></div>
             </div>
         </section>
     </main>
